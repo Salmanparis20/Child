@@ -1,0 +1,1186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    /* line-height: 1.5; 
+    -webkit-font-smoothing: antialiased; */
+    /* font-family: ; */
+    /* font-optical-sizing: auto; */
+    /* /* background-color: aqua; */
+}
+
+html {
+    /* font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0rem; */
+}
+
+::-webkit-scrollbar {
+    /* width: 1rem; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    /* text-wrap: balance; */
+}
+
+input,
+textarea,
+button {
+    /* font-family: inherit; */
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    /* display: block; */
+    /* max-width: 100%; */
+}
+
+:root {}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+.minipad {
+    padding: 1rem;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dflex {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dflex-col-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+/* ::::PARENT CONTAINER Code Starts here:::: */
+
+header {
+    /* width: 100%;
+    height: auto; */
+}
+
+main {
+    /* width: 100%;
+    height: auto; */
+}
+
+footer {
+    /* width: 100%;
+    height: auto; */
+}
+
+/* ::::PARENT CONTAINER Code Ends here::::  */
+
+
+.navBar1 {
+    background-color: #963523;
+    height: 5vh;
+    width: 100%;
+}
+
+.navBar1 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: "Manrope";
+    color: #fff;
+}
+
+
+/* ===== NavBar2 Section code End here ====== */
+.navBar2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar2 img {
+    padding: 2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.links li {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    text-indent: 2rem;
+    font-weight: 600;
+}
+
+.links .menu {
+    display: none;
+}
+
+.links .help {
+    display: none;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    text-indent: 2rem;
+    margin-right: 2rem;
+    font-size: 19px;
+}
+.checkbtn {
+    font-size: 25px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/* ===== NavBar2 Section code End here ====== */
+
+
+
+/* ===== Hero Section code Start here ====== */
+.heroImg img {
+    width: 100%;
+}/* ===== Hero Section code End here ====== */
+
+/* ===== Main Section code Start here ====== */
+.title1 h1 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+    /* font-weight: 600; */
+}
+
+.title1 span {
+    background: linear-gradient(90deg, #3861E9, #4DC9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title1 p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    line-height: 60px;
+    padding: 2rem;
+}
+
+.cardSection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.card {
+    background: linear-gradient(to bottom right, #E93331, #831D1C);
+    height: 40vh;
+    border-radius: 50px;
+}
+
+.cardHeader img {
+    width: 80px;
+    margin-left: 6.5rem;
+    margin-top: -1.8rem;
+}
+
+.cardBody h2 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.cardBody p {
+    margin-top: 2rem;
+    padding: 0 3rem 0 3rem;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: baseline;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.cd1 span {
+    color: #FCFFD4;
+}
+
+.cd2 {
+    background: linear-gradient(to bottom right, #5923B1, #571A5C);
+}
+
+.cd2 span {
+    color: #FFC5A5;
+}
+
+.cd3 {
+    background: linear-gradient(to bottom right, #3A687C, #062D3E);
+}
+
+.cd3 span {
+    color: #CAFFE9;
+}
+
+.cd4 {
+    background: linear-gradient(to bottom right, #317BE4, #1B447E);
+}
+
+.cd4 span {
+    color: #FFCFF4;
+}
+
+.end1 p {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+}
+
+.end1 button {
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    margin-left: 40%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+/* ===== Main Section code End here ====== */
+
+
+
+/* ===== Safe Section code Start here ====== */
+.title2 {
+    padding: 0 4rem;
+}
+
+.title2 h1 {
+    width: 35%;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+    line-height: 4rem;
+}
+
+.title2 span {
+    background: linear-gradient(90deg, #3861E9, #4DC9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .title2 button {
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+} */
+
+.btnSection {
+    width: 100%;
+}
+
+.safeDetails {
+    display: flex;
+    padding: 0 4rem;
+}
+
+.safeDetails img {
+    width: 35rem;
+}
+
+.accordion-header{
+    background-color: #FBFBFB;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.accordion-content{
+    width: 70%;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    line-height: 2rem;
+    padding: 1rem 0;
+}
+
+
+.accordion-header:hover {
+    background-color: #F6F1FF;
+    transition: 1s;
+}
+
+.accordion-header:nth-of-type(1) .icon {
+    background-image: url(./assert/images/btn1.png);
+}
+
+.accordion-header:nth-of-type(2) .icon {
+    background-image: url(./assert/images/btn2.png);
+}
+
+.accordion-header:nth-of-type(3) .icon {
+    background-image: url(./assert/images/btn3.png);
+}
+
+.accordion-header:nth-of-type(4) .icon {
+    background-image: url(./assert/images/btn4.png);
+}
+
+.accordion-header:nth-of-type(5) .icon {
+    background-image: url(./assert/images/btn5.png);
+}
+
+.accordion-header:nth-of-type(6) .icon {
+    background-image: url(./assert/images/btn6.png);
+}
+
+.accordion-header:nth-of-type(7) .icon {
+    background-image: url(./assert/images/btn7.png);
+}
+
+.accordion-header .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+.accordion-header:after {
+    content: '+';
+    font-size: 20px;
+    color: #000;
+    margin-left: auto;
+}
+
+.end2 p {
+    text-align: start;
+    padding: 2rem 4rem 0 4rem;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+}
+
+.end2 button {
+    padding: 1rem 4rem 1rem 4rem;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.end2 i {
+    color: #ffff;
+    padding: 0 1rem;
+}
+/* ===== Safe Section code End here ====== */
+
+
+
+/* ===== Group Section code Start here ====== */
+.groupSection {
+    /* display: flex; */
+    padding: 4rem;
+    gap: 2rem;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.rightside h1 {
+    width: 90%;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+    line-height: 3.5rem;
+}
+
+.rightside span {
+    background: linear-gradient(90deg, #3861E9, #4DC9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rightside p {
+    font-size: 24px;
+    font-family: "Manrope", sans-serif;
+    margin-top: 2rem;
+}
+/* ===== Group code End here ====== */
+
+
+/* ===== Kids Section code Start here ====== */
+.title3 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+    line-height: 3.5rem;
+}
+
+.title3 span {
+    background: linear-gradient(90deg, #3861E9, #4DC9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kidssafe img {
+    width: 100%;
+    padding: 2rem 0;
+}
+/* ===== Kids Section code End here ====== */
+
+
+/* ===== Step Section code Start here ====== */
+.stepContainer {
+    background-color: #FAFBFE;
+}
+
+.title4 h1 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+}
+
+.title4 span {
+    background: linear-gradient(90deg, #3861E9, #4DC9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title4 p {
+    text-align: center;
+    font-size: 20px;
+    padding: 2rem;
+    font-family: "Manrope", sans-serif;
+    line-height: 60px;
+}
+
+.stepCardSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 2rem 2rem;
+    padding-bottom: 4rem;
+}
+
+.stepCardHeader img {
+    width: 100%;
+}
+
+.stepCardBody p {
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    line-height: 20px;
+}
+/* ===== Step Section code End here ====== */
+
+
+
+/* ===== Subscribe Section code Start here ====== */
+.title5 h1 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+}
+
+.title5 span {
+    background: linear-gradient(90deg, #3861E9, #4DC9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title5 p {
+    text-align: center;
+    padding: 2rem;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+}
+
+.title5 h4 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Manrope", sans-serif;
+    line-height: 60px;
+    padding: 0 2rem;
+
+}
+
+.subCardSection {
+    gap: 2rem;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}
+
+.subCard {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 2rem;
+}
+
+.subCardHeader {
+    height: 15vh;
+    width: 90%;
+    background-color: #963523;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-left: 15px;
+}
+
+.sub1 {
+    background: linear-gradient(135deg, #1d5fc1, #4fc4ff);
+}
+
+.sub2 {
+    background: linear-gradient(135deg, #1d5fc1, #4fc4ff);
+}
+
+.sub3 {
+    background: linear-gradient(135deg, #174993, #da0a1d);
+}
+
+.sub4 {
+    background: linear-gradient(135deg, #174993, #5e37da);
+}
+
+.subCardHeader h5 {
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    padding: 1rem 1rem 0 1rem;
+    color: #fff;
+
+}
+
+.subCardHeader p {
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    padding: 1rem;
+    color: #ffff;
+}
+
+.subCardBody li {
+    list-style-type: none;
+    padding: 1rem 1rem 0 2rem;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+
+}
+
+.subCardBody hr {
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 1.5rem;
+}
+.subCardBody .accordion-content2 li{
+    margin-left: 2rem;
+}
+.subCardBody button {
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: #E64A19;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+}
+
+.subCardBody .subBtn1 {
+    width: 90%;
+    margin-top: 9rem;
+    margin-left: 0.8rem;
+}
+
+.subCardBody .subBtn2 {
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+}
+
+.subCardBody .subBtn3 {
+    width: 90%;
+    margin-top: 9rem;
+    margin-left: 0.8rem;
+}
+
+.subCardBody .subBtn4 {
+    width: 90%;
+    margin-top: 9rem;
+    margin-left: 0.8rem;
+}
+.subCardBody i{
+    font-size: 10px;
+    margin-left: 6rem;
+}
+
+/* .plus:after {
+    content: '+';
+    font-size: 15px;
+    color: #000;
+    margin-left: 7rem;
+} */
+/* ===== Subscribe Section code End here ====== */
+
+
+/* ===== Question Section code End here ====== */
+.title6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.title6 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+}
+
+.title6 button {
+    padding: 0rem 5rem;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 2rem;
+    border: none;
+    background-color: #3CAB51;
+    color: #fff;
+}
+
+.title6 i {
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-bottom: 1rem;
+}
+
+.title6 button:hover {
+    background-color: #000000;
+}
+
+.qusImg img {
+    width: 100%;
+    padding-top: 3rem;
+}
+/* ===== Question Section code End here ====== */
+
+
+
+/* ===== Footer Section code Start here ====== */
+.fotSectionBody {
+    padding: 4rem 0;
+}
+
+.fotLogo img {
+    width: 50%;
+}
+
+.fotContainer {
+    background-color: #380F07;
+}
+
+.fotLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotLinks li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+}
+
+.fotLinks li:hover {
+    color: #E64A19;
+    transition: 1s;
+}
+
+.fotAdBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.address {
+    padding: 0rem 4rem 0 0;
+}
+
+.address h4 {
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+}
+
+.address .ad i {
+    color: #fff;
+    padding: 0 10px;
+}
+
+.address .ad span {
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+}
+
+.address .ad {
+    padding: 1rem;
+}
+
+.contact h4 {
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    color: #fff;
+}
+
+.contact li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    line-height: 2rem;
+}
+
+.fotAdBody .fotImg {
+    margin-left: 17rem;
+}
+
+.fotAdBody .font {
+    margin-left: 7rem;
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.fotAdBody .font i {
+    padding: 0 1rem;
+    color: #fff;
+}
+
+.fotAdBody .font i:hover {
+    color: #56cfe1;
+}
+
+.copyBody {
+    padding: 4rem 0;
+}
+
+.copyBody .copyRt p {
+    color: #878787;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+}
+
+.copyBody .copyRt span {
+    color: #fff;
+}
+
+.copyBody .create p {
+    color: #878787;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+}
+
+.copyBody .create img {
+    width: 15px;
+}
+
+.copyBody .create b:hover {
+    color: #fff;
+}
+
+.copyLink {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyLink li {
+    list-style-type: none;
+    color: #878787;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+}
+
+.copyLink li:hover {
+    color: #56cfe1;
+}
+/* ===== Footer Section code End here ====== */
+
+
+
+
+
+
+
+/* ::::RESPONSIVE DESIGN DEVICE SIZES:::: */
+
+/* for responsive Target the Row Code (display:grid) */
+
+/* Small devices (landscape phones , upto 576px an below) */
+@media(width<=576px) {
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid5 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .navBar1 {
+        width: 100%;
+        padding-top:11px;
+    }
+  /* ---Resposive NavBar2 Section code Start here--- */
+    .links {
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: absolute;
+        flex-direction: column;
+        width: 90%;
+        text-align: start;
+        left: 1rem;
+        top: 7rem;
+        margin-top: 0;
+        justify-content: none;
+        align-items: flex-start;
+        line-height: 3rem;
+        display: none;
+    }
+
+    .links .menu {
+        display: flex;
+    }
+
+    .navBar2 .links hr {
+        width: 100%;
+    }
+
+    .links .help {
+        display: block;
+        padding-left: 2.1rem;
+        font-size: 14px;
+        font-family: "Manrope", sans-serif;
+        color: #000000;
+        padding-bottom: 2rem;
+    }
+
+    .links .help i {
+        padding-right: 10px;
+        color: #878787;
+    }
+
+    #check:checked~.links {
+        display: flex;
+    }
+
+    .checkbtn {
+        font-size: 1rem;
+        display: block;
+        position: absolute;
+        left: 2rem;
+        top:4.5rem;
+    }
+    .navBar2 img {
+        margin-left: 7rem;
+        width: 35%;
+    }
+    .navBar2 .icon {
+        font-size: 15px;
+    }
+    .icon .heart{
+        display: none;
+    }
+      /* ---Resposive NavBar2 Section code End here--- */
+
+
+
+  /* ---Resposive Main Section code Start here--- */
+    .title1 p {
+        line-height: 2rem;
+    }
+
+    .cardHeader img {
+        margin-left: 7rem;
+    }
+
+    .end1 p {
+        line-height: 2rem;
+        padding: 0 2rem;
+
+    }
+
+    .end1 button {
+        margin-left: 5.5rem;
+    }
+      /* ---Resposive Main Section code Start here--- */
+
+
+
+      /* ---Resposive Safe Section code Start here--- */
+    .title2 h1 {
+        width: 100%;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+    .accordion-header{
+        width: 100%;
+    }
+    .accordion-content{
+        width: 100%;
+        
+    }
+    .safeDetails img {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .end2 p {
+        text-align: center;
+    }
+
+    .end2 button {
+        margin-left: 5.5rem;
+    }
+      /* ---Resposive Safe Section code End here--- */
+
+
+
+      /* ---Resposive Group Section code Start here--- */
+    .groupSection {
+        padding: 2rem;
+    }
+
+    .leftside img {
+        width: 100%;
+    }
+
+    .rightside h1 {
+        width: 100%;
+    }
+  /* ---Resposive Group Section code End here--- */
+
+
+
+      /* ---Resposive Kids Section code Start here--- */
+    .title3 h1 {
+        padding: 0rem 2rem;
+    }
+      /* ---Resposive Kids Section code End here--- */
+
+
+
+  /* ---Resposive Step Section code Start here--- */
+    .title4 h1 {
+        width: 100%;
+        padding: 2rem 2rem;
+    }
+
+    .title4 p {
+        line-height: 2rem;
+        padding: 1rem 2rem;
+    }
+  /* ---Resposive Step Section code Start here--- */
+
+
+
+      /* ---Resposive Subcribe Section code Start here--- */
+      .subCardSection{
+        margin-left: 0;
+      }
+    .title5 h4 {
+        padding: 0 2rem;
+    }
+    .subCard {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .subCard p {
+        padding-bottom: 2rem;
+    }
+    .subCardBody i{
+        margin-left: 10rem;
+    }
+
+    /* .plus:after {
+        margin-left: 10rem;
+    } */
+      /* ---Resposive Subcribe Section code End here--- */
+
+
+
+    /* ---Resposive Question Section code Start here--- */
+    .title6 {
+        flex-direction: column;
+        padding: 0rem 2rem;
+        /* margin-top: 2rem; */
+    }
+
+    .title6 p {
+        line-height: 2rem;
+    }
+
+    .title6 button {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    /* ---Resposive Question Section code End here--- */
+
+
+
+
+/* ---Resposive Footer Section code Start here--- */
+    .fotLogo img {
+        width: 100%;
+    }
+    .fotLinks {
+        flex-direction: column;
+        line-height: 2rem;
+        margin-top: 2rem;
+    }
+
+    .fotAdBody .fotImg {
+        margin-left: 3rem;
+    }
+
+    .fotAdBody .fotImg img {
+        width: 30px;
+    }
+    .fotAdBody .fotImg .font {
+        margin-left: 0.5rem;
+    }
+
+    .address {
+        margin-left: 3.5rem;
+    }
+
+    .address h4 {
+        text-align: center;
+    }
+
+    .address .ad {
+        text-align: center;
+    }
+
+    .contact h4 {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .contact .ct {
+        text-align: center;
+    }
+
+    .fotImg img {
+        margin-top: 2rem;
+    }
+
+    .fotImg .font {
+        margin-left: 0rem;
+    }
+
+    .copyRt p {
+        text-align: center;
+    }
+
+    .create p {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .copyLink {
+        margin-top: 1rem;
+    }
+    /* ---Resposive Footer Section code End here--- */
+
+}
+
+/* Medium  devices ( tablets, upto 788px and above */
+/* @media(width >=577px) and (width <=768px){} */
+
+/* Large devices (Laptops, upto 992px and above */
+/* @media(width >=769px) and (width <=992px){} */
+
+/* X-Large devices (large desktops, upto 1200px and above */
+/* @media(width >=993px) and (width <=1200px){} */
+
+/* X-Large devices (large desktops, upto 1200px and above */
+/* @media(width >=1200px){} */
